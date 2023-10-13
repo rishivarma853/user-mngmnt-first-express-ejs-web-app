@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tsc -w",
+    "build": "npx tsc",
     "compile": "tsc",
-    "start": "node ./dist/index.js",
+    "start": "node ./dist/scripts/index.js",
     "dev": "nodemon src/scripts/index.ts"
   },
   "keywords": [
