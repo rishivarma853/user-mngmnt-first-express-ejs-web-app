@@ -8,7 +8,7 @@
     "build": "npx tsc",
     "compile": "tsc",
     "start": "node ./dist/scripts/index.js",
-    "dev": "nodemon src/scripts/index.ts"
+    "dev": "nodemon ./src/scripts/index.ts"
   },
   "keywords": [
     "rishivarma853"
